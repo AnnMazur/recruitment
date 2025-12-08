@@ -9,12 +9,10 @@ namespace Application.Interfaces
 {
     public interface IEvaluationCriterionService
     {
-      /*  Task<EvaluationCriterionDto> GetByIdAsync(Guid id);
-        Task<EvaluationCriterionDto> CreateAsync(CreateCandidateRequest request);
-        Task<EvaluationCriterionDto> UpdateAsync(Guid id, UpdateCandidateRequest request);
-        Task DeleteAsync(Guid id);
-        Task<List<EvaluationCriterionDto>> GetByInterviewAsync(Guid id);
+        Task<EvaluationCriterionDto> GetByIdAsync(Guid id);
         Task<List<EvaluationCriterionDto>> GetAllAsync();
-      */
+        Task<EvaluationCriterionDto> CreateAsync(CreateEvaluationCriterionRequest request);
+        Task<EvaluationCriterionDto> UpdateAsync(Guid id, UpdateEvaluationCriterionRequest request);
+        Task DeleteAsync(Guid id);
     }
 }

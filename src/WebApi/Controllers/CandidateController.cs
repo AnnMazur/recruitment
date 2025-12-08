@@ -1,4 +1,5 @@
-﻿using Application.DTOs;
+﻿
+using Application.DTOs;
 using Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -31,7 +32,7 @@ namespace WebApi.Controllers
             return Ok(candidate);
         }
 
-        [HttpGet("vacancy/{vacancy}")]
+        [HttpGet("vacancy/{vacancyId}")]
         public async Task<ActionResult<List<CandidateDto>>> GetByVacancy(Guid vacancyId) { 
             var candidate = await _candidateService.GetByVacancyAsync(vacancyId);   
             return Ok(candidate);

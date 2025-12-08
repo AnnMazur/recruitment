@@ -9,3 +9,4 @@ D:\RecruitmentSystem\src\Domain\obj\Debug\net8.0\Domain.dll
 D:\RecruitmentSystem\src\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\RecruitmentSystem\src\Domain\obj\Debug\net8.0\Domain.pdb
 D:\RecruitmentSystem\src\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\RecruitmentSystem\src\Domain\obj\Debug\net8.0\Domain.sourcelink.json

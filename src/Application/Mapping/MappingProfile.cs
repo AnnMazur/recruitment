@@ -47,32 +47,28 @@ namespace Application.Mapping
             // Interview 
             CreateMap<Interview, InterviewDto>()
                 .ForMember(dest => dest.CandidateFullName,
-                    opt => opt.MapFrom(src => $"{src.Candidate.LastName} {src.Candidate.FirstName}"))
+                    opt => opt.MapFrom(src => $"{src.Candidate.LastName} {src.Candidate.FirstName} {src.Candidate.SecondName}"))
                 .ForMember(dest => dest.VacancyTitle, opt => opt.MapFrom(src => src.Vacancy.Title))
                 .ForMember(dest => dest.CreatedByUserName,
-                    opt => opt.MapFrom(src => $"{src.CreatedBy.LastName} {src.CreatedBy.FirstName}"))
+                    opt => opt.MapFrom(src => $"{src.CreatedBy.LastName} {src.CreatedBy.FirstName} {src.CreatedBy.SecondName}"))
                 .ForMember(dest => dest.InterviewerUserName,
-                    opt => opt.MapFrom(src => $"{src.Interviewer.LastName} {src.Interviewer.FirstName}"))
+                    opt => opt.MapFrom(src => $"{src.Interviewer.LastName} {src.Interviewer.FirstName} {src.Interviewer.SecondName}"))
                 .ForMember(dest => dest.HasEvaluationForm,
                     opt => opt.MapFrom(src => src.EvaluationForm != null));
 
             CreateMap<CreateInterviewRequest, Interview>();
             CreateMap<UpdateInterviewRequest, Interview>()
                 .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
+
             // EvaluationCriterion
-            CreateMap<EvaluationCriterion, EvaluationCriterionDto>()
-                .ForMember(dest => dest.Type, opt => opt.MapFrom(src => src.Type.ToString()));
-
-            CreateMap<CreateEvaluationCriterionRequest, EvaluationCriterion>()
-                .ForMember(dest => dest.Type, opt => opt.MapFrom(src => Enum.Parse<CriterionType>(src.Type)));
-
+            CreateMap<EvaluationCriterion, EvaluationCriterionDto>();
+            CreateMap<CreateEvaluationCriterionRequest, EvaluationCriterion>();
             CreateMap<UpdateEvaluationCriterionRequest, EvaluationCriterion>()
                 .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
 
             // CriterionScore
             CreateMap<CriterionScore, CriterionScoreDto>()
                 .ForMember(dest => dest.CriterionName, opt => opt.MapFrom(src => src.Criterion.Name))
-                .ForMember(dest => dest.CriterionType, opt => opt.MapFrom(src => src.Criterion.Type.ToString()))
                 .ForMember(dest => dest.CriterionWeight, opt => opt.MapFrom(src => src.Criterion.Weight));
 
             CreateMap<CreateCriterionScoreRequest, CriterionScore>();
@@ -82,17 +78,14 @@ namespace Application.Mapping
             // EvaluationForm
             CreateMap<EvaluationForm, EvaluationFormDto>()
                 .ForMember(dest => dest.CandidateFullName,
-                    opt => opt.MapFrom(src => $"{src.Candidate.LastName} {src.Candidate.FirstName}"))
+                    opt => opt.MapFrom(src => $"{src.Candidate.LastName} {src.Candidate.FirstName} {src.Candidate.SecondName}"))
                 .ForMember(dest => dest.InterviewerName,
-                    opt => opt.MapFrom(src => $"{src.Interviewer.LastName} {src.Interviewer.FirstName}"))
-                .ForMember(dest => dest.InterviewScheduledAt, opt => opt.MapFrom(src => src.Interview.ScheduledAt))
-                .ForMember(dest => dest.Scores, opt => opt.MapFrom(src => src.Scores));
+                    opt => opt.MapFrom(src => $"{src.Interviewer.LastName} {src.Interviewer.FirstName} {src.Candidate.SecondName}"))
+                .ForMember(dest => dest.InterviewScheduledAt, opt => opt.MapFrom(src => src.Interview.ScheduledAt));
 
             CreateMap<CreateEvaluationFormRequest, EvaluationForm>();
             CreateMap<UpdateEvaluationFormRequest, EvaluationForm>()
                 .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
-
-
 
         }
     }

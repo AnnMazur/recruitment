@@ -10,8 +10,7 @@ namespace Domain.Entities
     {
         public Guid EvaluationFormId { get; set; }
         public Guid CriterionId { get; set; }
-        public string Value { get; set; } // Текстовое значение
-        public double NumericValue { get; set; } // Числовое значение (для расчетов)
+        public int Score { get; set; }
         public string? Comment { get; set; }
 
         public EvaluationForm EvaluationForm { get; set; } = default!;

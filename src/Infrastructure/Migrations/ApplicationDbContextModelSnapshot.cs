@@ -101,13 +101,10 @@ namespace Infrastructure.Migrations
                     b.Property<Guid>("EvaluationFormId")
                         .HasColumnType("uuid");
 
-                    b.Property<double>("NumericValue")
-                        .HasColumnType("decimal(3,1)");
-
-                    b.Property<string>("Value")
-                        .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("character varying(500)");
+                    b.Property<int>("Score")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(0);
 
                     b.HasKey("Id");
 
@@ -115,9 +112,10 @@ namespace Infrastructure.Migrations
 
                     b.HasIndex("EvaluationFormId");
 
-                    b.HasIndex("NumericValue");
-
-                    b.ToTable("CriterionScores");
+                    b.ToTable("CriterionScores", t =>
+                        {
+                            t.HasCheckConstraint("CK_CriterionScore_Score_Range", "\"Score\" >= 1 AND \"Score\" <= 10");
+                        });
                 });
 
             modelBuilder.Entity("Domain.Entities.EvaluationCriterion", b =>
@@ -134,23 +132,10 @@ namespace Infrastructure.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("character varying(500)");
 
-                    b.Property<int>("MaxScore")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasDefaultValue(10);
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("character varying(200)");
-
-                    b.Property<string>("Options")
-                        .HasColumnType("jsonb");
-
-                    b.Property<string>("Type")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("character varying(20)");
 
                     b.Property<double>("Weight")
                         .ValueGeneratedOnAdd()
@@ -159,9 +144,8 @@ namespace Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Name");
-
-                    b.HasIndex("Type");
+                    b.HasIndex("Name")
+                        .IsUnique();
 
                     b.ToTable("EvaluationCriteria");
                 });

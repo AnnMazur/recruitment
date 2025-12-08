@@ -111,9 +111,13 @@ namespace Application.Services
             if (!candidateExists)
                 throw new ArgumentException($"Candidate with ID {request.CandidateId} not found");
 
-            var vacancyExists = await _context.Vacancies.AnyAsync(v => v.Id == request.VacancyId);
-            if (!vacancyExists)
+            var vacancy = await _context.Vacancies
+                 .FirstOrDefaultAsync(v => v.Id == request.VacancyId);
+            if (vacancy == null)
                 throw new ArgumentException($"Vacancy with ID {request.VacancyId} not found");
+
+            if (vacancy.IsClosed)
+                throw new InvalidOperationException($"Cannot create interview for closed vacancy (ID: {vacancy.Id})");
 
             var interviewerExists = await _context.Users.AnyAsync(u => u.Id == request.InterviewerUserId);
             if (!interviewerExists)
@@ -127,7 +131,6 @@ namespace Application.Services
             _context.Interviews.Add(interview);
             await _context.SaveChangesAsync();
 
-            // Загружаем связанные данные для возврата
             var createdInterview = await _context.Interviews
                 .Include(i => i.Candidate)
                 .Include(i => i.Vacancy)
@@ -150,7 +153,6 @@ namespace Application.Services
             if (interview == null)
                 throw new KeyNotFoundException($"Interview with ID {id} not found");
 
-            //проверяем существование интервьюера если он поменялся
             if (request.InterviewerUserId.HasValue)
             {
                 var interviewerExists = await _context.Users.AnyAsync(u => u.Id == request.InterviewerUserId.Value);

@@ -23,23 +23,11 @@ namespace Infrastructure.Configurations
                 .IsRequired()
                 .HasMaxLength(500);
 
-            builder.Property(ec => ec.Type)
-                .IsRequired()
-                .HasConversion<string>()
-                .HasMaxLength(20);
-
             builder.Property(ec => ec.Weight)
                 .HasDefaultValue(1.0)
                 .HasColumnType("decimal(3,2)");
 
-            builder.Property(ec => ec.MaxScore)
-                .HasDefaultValue(10);
-
-            builder.Property(ec => ec.Options)
-                .HasColumnType("jsonb");
-
-            builder.HasIndex(ec => ec.Name);
-            builder.HasIndex(ec => ec.Type);
+            builder.HasIndex(ec => ec.Name).IsUnique(); 
         }
     }
 

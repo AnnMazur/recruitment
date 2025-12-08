@@ -91,33 +91,69 @@ namespace Application.Services
 
         public async Task<EvaluationFormDto> CreateAsync(CreateEvaluationFormRequest request) {
 
-          /*  var candidateExists = await _context.Candidates.AnyAsync(c => c.Id == request.CandidateId);
-            if (!candidateExists)
-                throw new ArgumentException($"Candidate with ID {request.CandidateId} not found");
+            var interview = await _context.Interviews
+      .Include(i => i.Candidate)
+      .Include(i => i.Interviewer)
+      .FirstOrDefaultAsync(i => i.Id == request.InterviewId);
 
-            var vacancyExists = await _context.Vacancies.AnyAsync(v => v.Id == request.VacancyId);
-            if (!vacancyExists)
-                throw new ArgumentException($"Vacancy with ID {request.VacancyId} not found");
+            if (interview == null)
+                throw new ArgumentException($"Interview with ID {request.InterviewId} not found");
 
-            var interviewerExists = await _context.Users.AnyAsync(u => u.Id == request.InterviewerUserId);
-            if (!interviewerExists)
-                throw new ArgumentException($"User with ID {request.InterviewerUserId} not found");
 
-            */
-            var evaluationForm = _mapper.Map<EvaluationForm>(request);
+            var criterionIds = request.Scores?.Select(s => s.CriterionId).Distinct().ToList() ?? new List<Guid>();
+
+            var criteria = await _context.EvaluationCriteria
+                .Where(c => criterionIds.Contains(c.Id))
+                .ToDictionaryAsync(c => c.Id);
+
+            var evaluationForm = new EvaluationForm
+            {
+                Name = request.Name,
+                Description = request.Description,
+                Recommendation = request.Recommendation,
+                OverallComment = request.OverallComment,
+                CandidateId = interview.CandidateId,
+                InterviewerId = interview.InterviewerUserId,
+                InterviewId = request.InterviewId
+            };
+
+            if (request.Scores != null && request.Scores.Any())
+            {
+                foreach (var scoreRequest in request.Scores)
+                {
+                    if (!criteria.TryGetValue(scoreRequest.CriterionId, out var criterion))
+                        throw new ArgumentException($"Criterion with ID {scoreRequest.CriterionId} not found");
+
+                    if (scoreRequest.Score < 1 || scoreRequest.Score > 10)
+                        throw new ArgumentException($"Score must be between 1 and 10 for criterion {criterion.Name}");
+
+                    var score = new CriterionScore
+                    {
+                        CriterionId = scoreRequest.CriterionId,
+                        Score = scoreRequest.Score,
+                        Comment = scoreRequest.Comment
+                    };
+
+                    evaluationForm.Scores.Add(score);
+                }
+            }
+
+            //evaluationForm.TotalScore = CalculateTotalScore(evaluationForm, criteria);
 
             _context.EvaluationForms.Add(evaluationForm);
             await _context.SaveChangesAsync();
 
-            var evaluationForms = await _context.EvaluationForms
-               .Include(ef => ef.Candidate)
-               .Include(ef => ef.Interview)
-               .Include(ef => ef.Interviewer)
-               .FirstOrDefaultAsync(ef => ef.Id == evaluationForm.Id);
+            //await UpdateCandidateRatingAsync(interview.CandidateId);
 
-            return _mapper.Map<EvaluationFormDto>(evaluationForms);
+            var createdForm = await _context.EvaluationForms
+                .Include(ef => ef.Candidate)
+                .Include(ef => ef.Interview)
+                .Include(ef => ef.Interviewer)
+                .Include(ef => ef.Scores)
+                    .ThenInclude(s => s.Criterion)
+                .FirstOrDefaultAsync(ef => ef.Id == evaluationForm.Id);
 
-
+            return _mapper.Map<EvaluationFormDto>(createdForm);
 
         }
         public async Task<EvaluationFormDto> UpdateAsync(Guid id, UpdateEvaluationFormRequest request) {

@@ -19,10 +19,9 @@ namespace Application
             services.AddScoped<IVacancyService, VacancyService>();
             services.AddScoped<ICandidateService, CandidateService>();
             services.AddScoped<IInterviewService, InterviewService>();
-            //services.AddScoped<IEvaluationFormService, EvaluationFormService>();
-            //services.AddScoped<IEvaluationCriterionService, EvaluationCriterionService>();
-            //services.AddScoped<ICriterionScoreService, CriterionScoreService>();
-
+            services.AddScoped<IEvaluationFormService, EvaluationFormService>();
+            services.AddScoped<IEvaluationCriterionService, EvaluationCriterionService>();
+            services.AddScoped<ICriterionScoreService, CriterionScoreService>();
 
             // AutoMapper
             services.AddAutoMapper(typeof(MappingProfile));
