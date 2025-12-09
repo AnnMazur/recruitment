@@ -101,16 +101,29 @@ namespace Application.Services
         public async Task UpdateCandidateRatingAsync(Guid candidateId)
         {
             var candidate = await _context.Candidates
-                .Include(c => c.EvaluationForms)
-                .FirstOrDefaultAsync(c => c.Id == candidateId);
+           .Include(c => c.EvaluationForms)
+           .ThenInclude(ef => ef.Scores)
+           .Include(c => c.EvaluationForms)
+           .ThenInclude(ef => ef.Scores)
+           .ThenInclude(s => s.Criterion)
+           .FirstOrDefaultAsync(c => c.Id == candidateId);
 
-            if (candidate!=null && candidate.EvaluationForms.Any())
+
+            var evaluationForms = candidate.EvaluationForms?.Where(ef => ef.TotalScore > 0).ToList();
+
+            if (evaluationForms != null && evaluationForms.Any())
             {
-                candidate.TotalRating = candidate.EvaluationForms.Average(ef => ef.TotalScore);
+                candidate.TotalRating = evaluationForms.Average(ef => ef.TotalScore);
                 await _context.SaveChangesAsync();
             }
-
-            
+            else
+            {
+                candidate.TotalRating = 0;
+                await _context.SaveChangesAsync();
+            }
         }
+
+
     }
+    
 }

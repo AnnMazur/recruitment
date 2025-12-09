@@ -60,7 +60,7 @@ namespace WebApi.Controllers
             return NoContent();
         }
 
-        [HttpPost("{id}/update-rating")]
+        [HttpPost("{candidateId}/update-rating")]
         public async Task<ActionResult> UpdateCandidateRating(Guid candidateId)
         {
             await _candidateService.UpdateCandidateRatingAsync(candidateId);

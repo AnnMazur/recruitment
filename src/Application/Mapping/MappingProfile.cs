@@ -22,8 +22,10 @@ namespace Application.Mapping
 
             // Candidate 
             CreateMap<Candidate, CandidateDto>()
-                .ForMember(dest => dest.Status, opt => opt.MapFrom(src => src.Status.ToString()));
-                
+                .ForMember(dest => dest.Status, opt => opt.MapFrom(src => src.Status.ToString()))
+                .ForMember(dest => dest.EvaluationFormsCount,
+                       opt  => opt.MapFrom(src => src.EvaluationForms.Count));
+
             CreateMap<CreateCandidateRequest, Candidate>()
                 .ForMember(dest => dest.Status, opt => opt.MapFrom(src =>
                     string.IsNullOrEmpty(src.Status)

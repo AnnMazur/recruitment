@@ -6,17 +6,20 @@ using Domain.Entities;
 using Domain.Enums;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace Application.Services
 {
     public class EvaluationFormService : IEvaluationFormService 
     {
         private readonly IApplicationDbContext _context;
         private readonly IMapper _mapper;
+        private readonly ICandidateService _candidateService;
 
-        public EvaluationFormService(IApplicationDbContext context, IMapper mapper)
+        public EvaluationFormService(IApplicationDbContext context, IMapper mapper, ICandidateService candidateService)
         {
             _context = context;
             _mapper = mapper;
+            _candidateService = candidateService;
         }
 
 
@@ -92,9 +95,9 @@ namespace Application.Services
         public async Task<EvaluationFormDto> CreateAsync(CreateEvaluationFormRequest request) {
 
             var interview = await _context.Interviews
-      .Include(i => i.Candidate)
-      .Include(i => i.Interviewer)
-      .FirstOrDefaultAsync(i => i.Id == request.InterviewId);
+                .Include(i => i.Candidate)
+                .Include(i => i.Interviewer)
+                .FirstOrDefaultAsync(i => i.Id == request.InterviewId);
 
             if (interview == null)
                 throw new ArgumentException($"Interview with ID {request.InterviewId} not found");
@@ -138,12 +141,12 @@ namespace Application.Services
                 }
             }
 
-            //evaluationForm.TotalScore = CalculateTotalScore(evaluationForm, criteria);
+            evaluationForm.TotalScore = CalculateTotalScore(evaluationForm, criteria);
 
             _context.EvaluationForms.Add(evaluationForm);
             await _context.SaveChangesAsync();
 
-            //await UpdateCandidateRatingAsync(interview.CandidateId);
+            await _candidateService.UpdateCandidateRatingAsync(interview.CandidateId);
 
             var createdForm = await _context.EvaluationForms
                 .Include(ef => ef.Candidate)
@@ -156,7 +159,8 @@ namespace Application.Services
             return _mapper.Map<EvaluationFormDto>(createdForm);
 
         }
-        public async Task<EvaluationFormDto> UpdateAsync(Guid id, UpdateEvaluationFormRequest request) {
+
+     public async Task<EvaluationFormDto> UpdateAsync(Guid id, UpdateEvaluationFormRequest request) {
 
             var evaluationForm = await _context.EvaluationForms
                .Include(ef => ef.Candidate)
@@ -173,6 +177,8 @@ namespace Application.Services
 
             return _mapper.Map<EvaluationFormDto>(evaluationForm);
         }
+    
+
         public async Task DeleteAsync(Guid id)
         {
             var evaluationForm = await _context.EvaluationForms
@@ -181,8 +187,6 @@ namespace Application.Services
               .Include(ef => ef.Interviewer)
               .FirstOrDefaultAsync(ef => ef.Id == id);
 
-            //добавить проверку на наличие связаных оценок criterion score 
-
             if (evaluationForm == null)
                 throw new KeyNotFoundException($"EvaluationForm with ID {id} not found");
 
@@ -190,6 +194,32 @@ namespace Application.Services
             await _context.SaveChangesAsync();
 
         }
-    } 
 
+        private double CalculateTotalScore(EvaluationForm evaluationForm, Dictionary<Guid, EvaluationCriterion> criteria = null)
+        {
+
+            var allScores = new List<double>();
+
+            allScores.Add(evaluationForm.Recommendation);
+
+            if (evaluationForm.Scores != null && evaluationForm.Scores.Any())
+            {
+                foreach (var score in evaluationForm.Scores)
+                {
+                    if (criteria.TryGetValue(score.CriterionId, out var criterion))
+                    {
+
+                       double criterionScore = score.Score * criterion.Weight;
+                        allScores.Add(criterionScore);
+                    }
+                }
+            }
+
+            if (!allScores.Any()) return 0;
+
+            return allScores.Average();
+        }
+
+    }
+     
 }

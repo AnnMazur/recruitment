@@ -18,7 +18,8 @@ namespace Application.DTOs
         public double TotalRating { get; set; }
         public DateTime CreatedAt { get; set; }
         public Guid VacancyId { get; set; }
-        public string Status { get; set; } = "OnReview"; 
+        public string Status { get; set; } = "OnReview";
+        public int EvaluationFormsCount { get; set; }
     }
 
     public class CreateCandidateRequest
@@ -40,7 +41,7 @@ namespace Application.DTOs
         public string? SecondName { get; set; }
         public string? Email { get; set; }
         public string? Phone { get; set; }
-        public string? Status { get; set; }
+        public string? Status { get; set; } 
         public string? ResumeUrl { get; set; }
     }
 
@@ -50,6 +51,7 @@ namespace Application.DTOs
         public string FirstName { get; set; } = default!;
         public string? SecondName { get; set; }
         public double TotalRating { get; set; }
+        public int EvaluationFormsCount { get; set; }
         public List<InterviewDto> Interviews { get; set; } = new();
     }
 

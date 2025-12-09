@@ -17,7 +17,8 @@ namespace Application.Interfaces
 
         Task<EvaluationFormDto> CreateAsync(CreateEvaluationFormRequest request);
         Task<EvaluationFormDto> UpdateAsync(Guid id, UpdateEvaluationFormRequest request);
-        Task DeleteAsync(Guid id);       
+        Task DeleteAsync(Guid id);
+        //Task CalculateTotalScoreAsync (Guid id);
 
     }
 }

@@ -3,12 +3,68 @@
   "WorkspaceRootPath": "D:\\RecruitmentSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\services\\candidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\candidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\services\\evaluationformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\evaluationformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\dtos\\criterionscoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\dtos\\criterionscoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\dtos\\candidatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\dtos\\candidatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB82140C-AA8A-4528-BF04-E960E94D2588}|src\\Domain\\Domain.csproj|d:\\recruitmentsystem\\src\\domain\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB82140C-AA8A-4528-BF04-E960E94D2588}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB82140C-AA8A-4528-BF04-E960E94D2588}|src\\Domain\\Domain.csproj|d:\\recruitmentsystem\\src\\domain\\enums\\candidatestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB82140C-AA8A-4528-BF04-E960E94D2588}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\enums\\candidatestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\dtos\\interviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\dtos\\interviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\dtos\\evaluationformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\dtos\\evaluationformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\services\\interviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\interviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\services\\criterionscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\criterionscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\interfaces\\icriterionscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\icriterionscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F267DC6-6B3C-4BA0-B180-3CD89F94BFA4}|src\\WebApi\\WebApi.csproj|d:\\recruitmentsystem\\src\\webapi\\controllers\\candidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F267DC6-6B3C-4BA0-B180-3CD89F94BFA4}|src\\WebApi\\WebApi.csproj|solutionrelative:src\\webapi\\controllers\\candidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB82140C-AA8A-4528-BF04-E960E94D2588}|src\\Domain\\Domain.csproj|d:\\recruitmentsystem\\src\\domain\\entities\\vacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB82140C-AA8A-4528-BF04-E960E94D2588}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\vacancy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,18 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3F267DC6-6B3C-4BA0-B180-3CD89F94BFA4}|src\\WebApi\\WebApi.csproj|d:\\recruitmentsystem\\src\\webapi\\controllers\\criterionscorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F267DC6-6B3C-4BA0-B180-3CD89F94BFA4}|src\\WebApi\\WebApi.csproj|solutionrelative:src\\webapi\\controllers\\criterionscorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\interfaces\\icriterionscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\icriterionscoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\services\\candidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\candidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\interfaces\\icandidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\icandidateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B367C002-FA59-4C05-9EDE-8C3C5DD1BFC5}|src\\Infrastructure\\Infrastructure.csproj|d:\\recruitmentsystem\\src\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{BB82140C-AA8A-4528-BF04-E960E94D2588}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\evaluationcriterion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\dtos\\evaluationformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\dtos\\evaluationformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F267DC6-6B3C-4BA0-B180-3CD89F94BFA4}|src\\WebApi\\WebApi.csproj|d:\\recruitmentsystem\\src\\webapi\\controllers\\evaluationformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F267DC6-6B3C-4BA0-B180-3CD89F94BFA4}|src\\WebApi\\WebApi.csproj|solutionrelative:src\\webapi\\controllers\\evaluationformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,20 +111,8 @@
       "RelativeMoniker": "D:0:0:{3F267DC6-6B3C-4BA0-B180-3CD89F94BFA4}|src\\WebApi\\WebApi.csproj|solutionrelative:src\\webapi\\controllers\\evaluationcriterioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\services\\evaluationformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\evaluationformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\services\\interviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\interviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\services\\evaluationcriterionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\evaluationcriterionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\services\\vacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,16 +127,8 @@
       "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\ievaluationcriterionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\interfaces\\iinterviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\iinterviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\interfaces\\ivacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\ivacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58D819CE-082D-4FD5-AAEE-EAB10C15014E}|src\\Application\\Application.csproj|d:\\recruitmentsystem\\src\\application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 372,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -133,38 +153,217 @@
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EvaluationFormService.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Services\\EvaluationFormService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\EvaluationFormService.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Services\\EvaluationFormService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\EvaluationFormService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwK0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:36:34.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CriterionScoreDTO.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\CriterionScoreDTO.cs",
+              "RelativeDocumentMoniker": "src\\Application\\DTOs\\CriterionScoreDTO.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\CriterionScoreDTO.cs",
+              "RelativeToolTip": "src\\Application\\DTOs\\CriterionScoreDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:09:00.869Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CriterionScoreDTO.cs",
-              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\CriterionScoreDTO.cs",
-              "RelativeDocumentMoniker": "src\\Application\\DTOs\\CriterionScoreDTO.cs",
-              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\CriterionScoreDTO.cs",
-              "RelativeToolTip": "src\\Application\\DTOs\\CriterionScoreDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Title": "CandidateService.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Services\\CandidateService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\CandidateService.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Services\\CandidateService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\CandidateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T16:09:00.869Z",
+              "WhenOpened": "2025-12-08T14:32:24.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "CandidateDTO.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\CandidateDTO.cs",
+              "RelativeDocumentMoniker": "src\\Application\\DTOs\\CandidateDTO.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\CandidateDTO.cs",
+              "RelativeToolTip": "src\\Application\\DTOs\\CandidateDTO.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwDUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T10:28:19.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "src\\Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:33:26.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Domain\\Entities\\Candidate.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Candidate.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Domain\\Entities\\Candidate.cs",
+              "RelativeToolTip": "src\\Domain\\Entities\\Candidate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T10:35:47.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CandidateStatus.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Domain\\Enums\\CandidateStatus.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Enums\\CandidateStatus.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Domain\\Enums\\CandidateStatus.cs",
+              "RelativeToolTip": "src\\Domain\\Enums\\CandidateStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T10:35:40.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InterviewDTO.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\InterviewDTO.cs",
+              "RelativeDocumentMoniker": "src\\Application\\DTOs\\InterviewDTO.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\InterviewDTO.cs",
+              "RelativeToolTip": "src\\Application\\DTOs\\InterviewDTO.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:31:18.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EvaluationFormDTO.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\EvaluationFormDTO.cs",
+              "RelativeDocumentMoniker": "src\\Application\\DTOs\\EvaluationFormDTO.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\EvaluationFormDTO.cs",
+              "RelativeToolTip": "src\\Application\\DTOs\\EvaluationFormDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:00:24.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InterviewService.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Services\\InterviewService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\InterviewService.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Services\\InterviewService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\InterviewService.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAADwv3kAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:14:16.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CriterionScoreService.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Services\\CriterionScoreService.cs",
               "RelativeDocumentMoniker": "src\\Application\\Services\\CriterionScoreService.cs",
               "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Services\\CriterionScoreService.cs",
               "RelativeToolTip": "src\\Application\\Services\\CriterionScoreService.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAA5wEkAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T16:40:08.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "ICriterionScoreService.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Interfaces\\ICriterionScoreService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\ICriterionScoreService.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Interfaces\\ICriterionScoreService.cs",
+              "RelativeToolTip": "src\\Application\\Interfaces\\ICriterionScoreService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T10:21:42.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CandidateController.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\WebApi\\Controllers\\CandidateController.cs",
+              "RelativeDocumentMoniker": "src\\WebApi\\Controllers\\CandidateController.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\WebApi\\Controllers\\CandidateController.cs",
+              "RelativeToolTip": "src\\WebApi\\Controllers\\CandidateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:24:48.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Vacancy.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Domain\\Entities\\Vacancy.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Vacancy.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Domain\\Entities\\Vacancy.cs",
+              "RelativeToolTip": "src\\Domain\\Entities\\Vacancy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:38:47.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "src\\Application\\DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "src\\Application\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T17:22:59.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:37:23.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\Application\\DependencyInjection.cs",
@@ -172,12 +371,11 @@
               "RelativeToolTip": "src\\Application\\DependencyInjection.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T14:50:34.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T14:50:34.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "CriterionScoreController.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\WebApi\\Controllers\\CriterionScoreController.cs",
               "RelativeDocumentMoniker": "src\\WebApi\\Controllers\\CriterionScoreController.cs",
@@ -185,38 +383,11 @@
               "RelativeToolTip": "src\\WebApi\\Controllers\\CriterionScoreController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAgwBUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T16:49:32.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T16:49:32.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICriterionScoreService.cs",
-              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Interfaces\\ICriterionScoreService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\ICriterionScoreService.cs",
-              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Interfaces\\ICriterionScoreService.cs",
-              "RelativeToolTip": "src\\Application\\Interfaces\\ICriterionScoreService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T16:20:13.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICandidateService.cs",
-              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Interfaces\\ICandidateService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\ICandidateService.cs",
-              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Interfaces\\ICandidateService.cs",
-              "RelativeToolTip": "src\\Application\\Interfaces\\ICandidateService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T14:53:27.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Infrastructure\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\ApplicationDbContext.cs",
@@ -224,25 +395,11 @@
               "RelativeToolTip": "src\\Infrastructure\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T15:28:16.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T15:28:16.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CandidateService.cs",
-              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Services\\CandidateService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\CandidateService.cs",
-              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Services\\CandidateService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\CandidateService.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowGIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T14:32:24.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "EvaluationCriterionConfiguration.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Infrastructure\\Configurations\\EvaluationCriterionConfiguration.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Configurations\\EvaluationCriterionConfiguration.cs",
@@ -250,12 +407,11 @@
               "RelativeToolTip": "src\\Infrastructure\\Configurations\\EvaluationCriterionConfiguration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T15:28:19.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T15:28:19.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "CriterionScoreConfiguration.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Infrastructure\\Configurations\\CriterionScoreConfiguration.cs",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Configurations\\CriterionScoreConfiguration.cs",
@@ -263,12 +419,11 @@
               "RelativeToolTip": "src\\Infrastructure\\Configurations\\CriterionScoreConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T16:22:32.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T16:22:32.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "EvaluationCriterionDTO.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\EvaluationCriterionDTO.cs",
               "RelativeDocumentMoniker": "src\\Application\\DTOs\\EvaluationCriterionDTO.cs",
@@ -276,12 +431,11 @@
               "RelativeToolTip": "src\\Application\\DTOs\\EvaluationCriterionDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T15:26:32.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T15:26:32.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "EvaluationForm.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Domain\\Entities\\EvaluationForm.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Entities\\EvaluationForm.cs",
@@ -289,12 +443,11 @@
               "RelativeToolTip": "src\\Domain\\Entities\\EvaluationForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T15:56:57.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T15:56:57.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "CriterionScore.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Domain\\Entities\\CriterionScore.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Entities\\CriterionScore.cs",
@@ -302,12 +455,11 @@
               "RelativeToolTip": "src\\Domain\\Entities\\CriterionScore.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T16:21:15.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T16:21:15.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "EvaluationCriterion.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Domain\\Entities\\EvaluationCriterion.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Entities\\EvaluationCriterion.cs",
@@ -315,25 +467,11 @@
               "RelativeToolTip": "src\\Domain\\Entities\\EvaluationCriterion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T15:25:34.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T15:25:34.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EvaluationFormDTO.cs",
-              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\EvaluationFormDTO.cs",
-              "RelativeDocumentMoniker": "src\\Application\\DTOs\\EvaluationFormDTO.cs",
-              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\DTOs\\EvaluationFormDTO.cs",
-              "RelativeToolTip": "src\\Application\\DTOs\\EvaluationFormDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T16:00:24.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
               "Title": "EvaluationFormController.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\WebApi\\Controllers\\EvaluationFormController.cs",
               "RelativeDocumentMoniker": "src\\WebApi\\Controllers\\EvaluationFormController.cs",
@@ -341,12 +479,11 @@
               "RelativeToolTip": "src\\WebApi\\Controllers\\EvaluationFormController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T14:47:08.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T14:47:08.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "EvaluationCriterionController.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\WebApi\\Controllers\\EvaluationCriterionController.cs",
               "RelativeDocumentMoniker": "src\\WebApi\\Controllers\\EvaluationCriterionController.cs",
@@ -354,38 +491,11 @@
               "RelativeToolTip": "src\\WebApi\\Controllers\\EvaluationCriterionController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T14:41:58.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T14:41:58.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EvaluationFormService.cs",
-              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Services\\EvaluationFormService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\EvaluationFormService.cs",
-              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Services\\EvaluationFormService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\EvaluationFormService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T15:36:34.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "InterviewService.cs",
-              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Services\\InterviewService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\InterviewService.cs",
-              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Services\\InterviewService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\InterviewService.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAwwJwAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T15:14:16.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "EvaluationCriterionService.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Services\\EvaluationCriterionService.cs",
               "RelativeDocumentMoniker": "src\\Application\\Services\\EvaluationCriterionService.cs",
@@ -393,25 +503,11 @@
               "RelativeToolTip": "src\\Application\\Services\\EvaluationCriterionService.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAgwD4AAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T15:25:30.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T15:25:30.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\UserService.cs",
-              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Services\\UserService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T15:37:23.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "VacancyService.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Services\\VacancyService.cs",
               "RelativeDocumentMoniker": "src\\Application\\Services\\VacancyService.cs",
@@ -419,25 +515,23 @@
               "RelativeToolTip": "src\\Application\\Services\\VacancyService.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T15:37:09.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T15:37:09.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Infrastructure",
+              "DocumentIndex": 29,
+              "Title": "Infrastructure.csproj",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "src\\Infrastructure\\Infrastructure.csproj",
               "ToolTip": "D:\\RecruitmentSystem\\src\\Infrastructure\\Infrastructure.csproj",
               "RelativeToolTip": "src\\Infrastructure\\Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-08T15:28:10.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T15:28:10.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "IEvaluationCriterionService.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Interfaces\\IEvaluationCriterionService.cs",
               "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IEvaluationCriterionService.cs",
@@ -445,12 +539,11 @@
               "RelativeToolTip": "src\\Application\\Interfaces\\IEvaluationCriterionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T14:54:33.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T14:54:33.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "IVacancyService.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Interfaces\\IVacancyService.cs",
               "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IVacancyService.cs",
@@ -458,38 +551,11 @@
               "RelativeToolTip": "src\\Application\\Interfaces\\IVacancyService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T14:54:05.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T14:54:05.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IInterviewService.cs",
-              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Interfaces\\IInterviewService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IInterviewService.cs",
-              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Interfaces\\IInterviewService.cs",
-              "RelativeToolTip": "src\\Application\\Interfaces\\IInterviewService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T14:53:38.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "D:\\RecruitmentSystem\\src\\Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "src\\Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T14:53:39.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "IApplicationDbContext.cs",
               "DocumentMoniker": "D:\\RecruitmentSystem\\src\\Application\\Interfaces\\IApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IApplicationDbContext.cs",
@@ -497,8 +563,7 @@
               "RelativeToolTip": "src\\Application\\Interfaces\\IApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T14:53:25.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T14:53:25.813Z"
             }
           ]
         }
